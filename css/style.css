@@ -8,6 +8,18 @@
 }
 
 /*----------------
+      DEBUG
+------------------*/
+
+.debug .col-left-head {
+  background-color: red;
+}
+
+.debug .col-right-head {
+  background-color: green;
+}
+
+/*----------------
       COMMON
 ------------------*/
 
@@ -21,3 +33,81 @@
   display: table;
   clear: both;
 }
+
+/*----------------
+      TYPO
+------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------
+      BUTTON
+------------------*/
+.button-base {
+  border: none;
+  padding: 5px 10px;
+}
+
+.button-cyan {
+  background-color: #0262f5;
+  color: white;
+}
+
+/*----------------
+      HEADER
+------------------*/
+header {
+  position: relative;
+}
+.nav-head {
+  display: inline-block;
+  color: black;
+  vertical-align: middle;
+}
+.box-head nav {
+  padding-right: 30px;
+}
+
+.nav-head li {
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.nav-head a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  vertical-align: middle;
+  width: 100px;
+}
+
+.col-left-head {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  text-align: left;
+}
+
+.col-right-head {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 50%;
+  text-align: right;
+}
+
+.col-left-head,
+.col-right-head {
+  padding: 20px 30px;
+}
+
+/*----------------
+      MAIN
+------------------*/
+
+/*----------------
+      FOOTER
+------------------*/
