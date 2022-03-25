@@ -11,12 +11,20 @@
       DEBUG
 ------------------*/
 
-.debug .col-left-head {
+.debug .col-left {
   background-color: red;
 }
 
-.debug .col-right-head {
+.debug .col-right {
   background-color: green;
+}
+
+.debug .hero {
+  width: 100%;
+}
+
+.debug .container {
+  border: 1px solid black;
 }
 
 /*----------------
@@ -41,6 +49,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.hero h1 {
+  font-size: 62px;
+  padding-top: 100px;
+}
+
 /*----------------
       BUTTON
 ------------------*/
@@ -54,18 +67,51 @@ body {
   color: white;
 }
 
+.hero button {
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
 /*----------------
       HEADER
 ------------------*/
 header {
   position: relative;
 }
+
+.box-head {
+  position: fixed;
+  top: 0%;
+  margin: left;
+  width: 100%;
+  vertical-align: middle;
+  background-color: white;
+  z-index: 10;
+}
+
+.col-left {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.col-right {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  margin: -4px;
+}
+
+.col-left,
+.col-right {
+  padding: 20px 20px;
+}
+
 .nav-head {
   display: inline-block;
   color: black;
   vertical-align: middle;
-}
-.box-head nav {
   padding-right: 30px;
 }
 
@@ -83,30 +129,31 @@ header {
   width: 100px;
 }
 
-.col-left-head {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 50%;
-  text-align: left;
-}
-
-.col-right-head {
-  position: fixed;
-  top: 0%;
-  right: 0%;
-  width: 50%;
-  text-align: right;
-}
-
-.col-left-head,
-.col-right-head {
-  padding: 20px 30px;
-}
-
 /*----------------
       MAIN
 ------------------*/
+section.hero {
+  background-color: #b4d0e6;
+}
+
+section.hero .col-left {
+  position: relative;
+  bottom: -80px;
+  width: 30%;
+  text-align: left;
+  padding: 0px;
+  vertical-align: top;
+}
+
+.arrow-down {
+  margin-top: 30px;
+  font-size: 50px;
+}
+.img-hero {
+  position: relative;
+  bottom: -80px;
+  width: 60%;
+}
 
 /*----------------
       FOOTER
