@@ -75,6 +75,9 @@ body {
   padding-top: 100px;
 }
 
+p {
+  font-size: 14px;
+}
 /*----------------
       BUTTON
 ------------------*/
@@ -90,6 +93,12 @@ header .button-base {
 .button-cyan {
   background-color: #0262f5;
   color: white;
+}
+
+.button-white {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
 }
 
 .hero button {
@@ -176,15 +185,18 @@ section.hero .col-left {
 }
 .img-hero {
   position: relative;
-  bottom: -100px;
+  bottom: -200px;
   width: 750px;
 }
 /* /SEZIONE HERO  */
 
 /* SEZIONE BUSINESS  */
+section {
+  padding-bottom: 100px;
+}
+
 section.business {
   padding-top: 150px;
-  padding-bottom: 300px;
 }
 
 section.business h1 {
@@ -230,9 +242,8 @@ section.business small {
 }
 
 .business-data {
-  padding: 0px 30px;
-  padding-top: 30px;
-  font-size: 15px;
+  padding: 30px 30px;
+  font-size: 14px;
 }
 .price {
   font-weight: bold;
@@ -288,6 +299,52 @@ a:visited {
 
 /* /SEZIONE BUSINESS  */
 
+/* SEZIONE CONTATTI */
+
+.sales-office {
+  border: 1px solid lightgray;
+}
+
+.col-contact-sx {
+  float: left;
+  width: 70%;
+}
+
+.col-contact-dx {
+  float: left;
+  width: 30%;
+}
+
+.col-contact-sx h3 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.col-contact-dx button {
+  width: 100%;
+}
+
+/* sezione contatta partner  */
+.partner-contact {
+  float: left;
+  width: calc((100% / 2) - 50px);
+  padding-left: 50px;
+}
+
+.partner-contact h1 {
+  padding-top: 30px;
+}
+
+.partner-contact p {
+  padding: 25px 0px;
+  line-height: 30px;
+}
+
+.img-partner {
+  float: left;
+  width: calc(100% / 2);
+}
+/* sezione contatta partner  */
 /*----------------
       FOOTER
-------------------*/
+------------------*/ ;
