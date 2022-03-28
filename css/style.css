@@ -212,12 +212,17 @@ section.business small {
 .table-business {
   padding-top: 40px;
 }
+
+div.table-business .col-business-sx,
+div.table-business .col-business-right,
+div.table-business .col-business-midle {
+  border: 1px solid grey;
+}
 .col-business-sx,
 .col-business-right,
 .col-business-midle {
   float: left;
   min-height: 1000px;
-  border: 1px solid grey;
 }
 
 .col-business-sx {
@@ -344,7 +349,38 @@ a:visited {
   float: left;
   width: calc(100% / 2);
 }
-/* sezione contatta partner  */
+/* /sezione contatta partner  */
+
+/* sezione operazioni dropbox */
+section.drop-operation h1 {
+  font-size: 48px;
+}
+
+div.row .col-business-sx,
+div.row .col-business-right,
+div.row .col-business-midle {
+  min-height: 500px;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+div.img-container {
+  width: 100%;
+  height: 300px;
+}
+
+.img-style {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/* /sezione operazioni dropbox */
 /*----------------
       FOOTER
 ------------------*/ ;
