@@ -96,7 +96,7 @@ header .button-base {
 }
 
 .button-white {
-  background-color: transparent;
+  background-color: white;
   color: black;
   border: 1px solid black;
 }
@@ -112,6 +112,10 @@ header .button-base {
 ------------------*/
 header {
   position: relative;
+}
+
+.nav-head a:visited {
+  color: black;
 }
 
 .box-head {
@@ -380,7 +384,124 @@ div.img-container {
 .underline {
   text-decoration: underline;
 }
+
 /* /sezione operazioni dropbox */
+
+/* sezione brand */
+section.brand {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.col-small,
+.col-midle {
+  float: left;
+  min-height: 400px;
+}
+
+.col-small {
+  width: 30%;
+}
+
+.col-midle {
+  width: 40%;
+}
+
+.box-brand-large {
+  width: 40vw;
+  height: 30vw;
+  background-color: #f5f5f5;
+  margin: -4px;
+  display: inline-block;
+  overflow: auto;
+}
+
+.box-brand {
+  width: 15vw;
+  height: 15vw;
+  display: inline-block;
+  margin: -4px;
+}
+
+.box-green {
+  background-color: #a2d39b;
+}
+
+.box-darkred {
+  background-color: #61082b;
+}
+
+.box-cyan {
+  background-color: #0093ce;
+}
+
+.box-red {
+  background-color: #ff1c1c;
+}
+
+.box-red2 {
+  background-color: #d5001f;
+}
+
+.box-cyanlight {
+  background-color: #b4d0e7;
+}
+
+.box-blue {
+  background-color: #0d2481;
+}
+
+.box-yellow {
+  background-color: #ffd830;
+}
+
+.box-brand img {
+  width: 50%;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  vertical-align: top;
+  filter: invert(100);
+}
+
+.box-brand-large img {
+  width: 20%;
+  padding-bottom: 30px;
+}
+
+.description {
+  padding: 50px;
+}
+
+.description hr {
+  width: 60px;
+  columns: grey;
+  margin-bottom: 60px;
+}
+
+/* /sezione brand  */
+
+/* sezione prova gratuita  */
+.try-for-free {
+  background-color: #b4d0e7;
+  width: 100vw;
+  height: 300px;
+}
+section.try-for-free .business-data {
+  padding-top: 100px;
+}
+
+section.try-for-free h1 {
+  color: #61082b;
+  font-size: 42px;
+}
+
+section.try-for-free button {
+  border: none;
+}
+
+/* /sezione prova gratuita  */
 /*----------------
       FOOTER
 ------------------*/ ;
