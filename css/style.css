@@ -502,6 +502,29 @@ section.try-for-free button {
 }
 
 /* /sezione prova gratuita  */
+
+/* sezione faq */
+.faq {
+  padding: 30px 0px;
+  border-bottom: 1px solid grey;
+}
+
+.question {
+  display: inline-block;
+}
+
+.fa-angle-down {
+  padding-left: 500px;
+  display: inline-block;
+}
+
+.answer {
+  font-size: 32px;
+  padding: 40px 0px;
+  border-bottom: 1px solid grey;
+}
+
+/* /sezione faq */
 /*----------------
       FOOTER
 ------------------*/ ;
